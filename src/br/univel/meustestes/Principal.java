@@ -129,25 +129,11 @@ public class Principal {
 		
 		
 		
-		// O exercício consiste em identificar a necessidade de
-		// novos métodos para finalizar a tarefa, sempre lembrando
-		// de coesão, acoplamento e encapsulamento.
-		// Entrega link do repositório para fernandod@univel.br com assunto:
-		// TrabalhoComplementar 3o Sem
-
 		
 		
 	}
 	
-	/**
-	 * Percorre toda a arvore, recursivamente, encontra
-	 * todas as contas analíticas (isLeaf() == true), soma
-	 * seus valores e atribui o total na conta pai.
-	 * 
-	 * Depois pega todos os pais e somam no avô.
-	 * 
-	 * @param planoContas
-	 */
+	
 	private void somarFilhos(UniArvore<Conta> planoContas) {
 		
 		
